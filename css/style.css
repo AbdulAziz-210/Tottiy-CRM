@@ -327,6 +327,237 @@ table {
   margin-right: 8px;
 }
 
+/* .circle-icon-inst {
+  position: relative;
+} */
+.badge-inst {
+  position: relative;
+  border: none;
+  border-radius: 18px;
+  width: 91px;
+  color: #c11574;
+  background: #fdf2fa;
+  padding: 2px 0px 3px 11px;
+}
+.badge-inst::after {
+  position: absolute;
+  content: " ";
+  background-color: #ee46bc;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 6px;
+  top: 7px;
+}
+
+.operator-badge {
+  position: relative;
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+  width: 85px;
+  color: #344054;
+  background: #f2f4f7;
+  padding: 1px 0px 3px 10px;
+}
+.operator-badge::after {
+  position: absolute;
+  content: " ";
+  background-color: #667085;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 6px;
+  top: 6.5px;
+}
+
+.telegram-badge {
+  position: relative;
+  border: none;
+  border-radius: 17px;
+  width: 100%;
+  width: 93px;
+  color: #3538cd;
+  background: #f2f4f7;
+  padding: 2px 0px 3px 7px;
+}
+.telegram-badge::after {
+  position: absolute;
+  content: " ";
+  background-color: #6172f3;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 6px;
+  top: 8.2px;
+}
+.telegram-badge::after {
+  position: absolute;
+  content: " ";
+  background-color: #6172f3;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 6px;
+  top: 8.2px;
+}
+
+.facebook-badge {
+  position: relative;
+  border: none;
+  border-radius: 17px;
+  width: 100%;
+  width: 88px;
+  color: #6941c6;
+  background: #f2f4f7;
+  padding: 2px 0px 3px 7px;
+}
+
+.facebook-badge::after {
+  position: absolute;
+  content: " ";
+  background-color: #9e77ed;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 6px;
+  top: 8.2px;
+}
+
+/*  */
+/*  */
+/* progress badge */
+
+.visiting-badge {
+  position: relative;
+  border: none;
+  border-radius: 17px;
+  width: 100%;
+  width: 112px;
+  color: #3538cd;
+  background: #eef4ff;
+  padding: 2px 0px 3px 9px;
+}
+
+.visiting-badge::after {
+  position: absolute;
+  content: " ";
+  background-color: #6172f3;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 5px;
+  top: 8.2px;
+}
+
+.progress-badge {
+  position: relative;
+  border: none;
+  border-radius: 17px;
+  width: 100%;
+  width: 95px;
+  color: #b54708;
+  background: #fffaeb;
+  padding: 2px 0px 3px 9px;
+}
+.progress-badge::after {
+  position: absolute;
+  content: " ";
+  background-color: #f79009;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 5px;
+  top: 8.2px;
+}
+/*  */
+.canceled-badge {
+  position: relative;
+  border: none;
+  border-radius: 17px;
+  width: 100%;
+  width: 105px;
+  color: #b42318;
+  background: #fef3f2;
+  padding: 2px 0px 3px 9px;
+}
+.canceled-badge::after {
+  position: absolute;
+  content: " ";
+  background-color: #f04438;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 6px;
+  top: 7.2px;
+}
+
+.treated-badge {
+  position: relative;
+  border: none;
+  border-radius: 17px;
+  width: 100%;
+  width: 122px;
+  color: #6941c6;
+  background: #f9f5ff;
+  padding: 2px 0px 3px 8px;
+}
+.treated-badge::after {
+  position: absolute;
+  content: " ";
+  background-color: #9e77ed;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 4px;
+  top: 8px;
+}
+
+.operator-treated-badge {
+  position: relative;
+  border: none;
+  border-radius: 17px;
+  width: 100%;
+  width: 155px;
+  color: #027a48;
+  background: #ecfdf3;
+  padding: 2px 0px 3px 8px;
+}
+.operator-treated-badge::after {
+  position: absolute;
+  content: " ";
+  background-color: #12b76a;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 4px;
+  top: 8px;
+}
+
+.open-badge {
+  position: relative;
+  border: none;
+  border-radius: 17px;
+  width: 100%;
+  width: 89px;
+  color: #344054;
+  background: #f2f4f7;
+  padding: 2px 0px 3px 8px;
+}
+.open-badge::after {
+  position: absolute;
+  content: " ";
+  background-color: #667085;
+  border-radius: 10px;
+  width: 6px;
+  height: 6px;
+  left: 4px;
+  top: 8px;
+}
+
+/*  */
+/*  */
+/*  */
 .fourth-td-wrap > p,
 .sixth-td-wrap > p {
   font-size: 11px;
@@ -352,6 +583,9 @@ table {
   border: none;
   border: 1px solid #d0d5dd;
   border-radius: 8px;
+}
+.second-list > div > button:hover {
+  cursor: pointer;
 }
 .second-list > div > button:last-child {
   margin: 12px 24px 16px 0;
